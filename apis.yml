@@ -1,4 +1,16 @@
 aid: wily-technology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wily-technology.png
 name: Wily Technology
 description: Wily Technology is a company surfaced as a portfolio company of accel and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,12 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: defunct
+x-status-note: 'Verified 2026-07-21: www.wilytech.com 302-redirects to https://www.broadcom.com/404-ca-technologies
+  and has no valid TLS cert; no api./developer./docs. subdomains resolve. Wily Technology (APM/Introscope,
+  Accel-backed) was acquired by CA Technologies in 2006 and CA was absorbed by Broadcom in 2018. No live
+  API surface, developer portal, or documentation exists.'
 tags:
 - Company
 apis: []
@@ -23,3 +40,9 @@ maintainers:
 common:
 - type: Website
   url: http://www.wilytech.com
+
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
