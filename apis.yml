@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.wilytech.com', status: 301, note: 'declared website redirects to https://www.broadcom.com/404-ca-technologies — a different registrable domain (wilytech.com -> broadcom.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wily-technology.png
 name: Wily Technology
 description: Wily Technology is a company surfaced as a portfolio company of accel and added to the API
