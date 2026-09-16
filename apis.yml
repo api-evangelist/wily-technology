@@ -18,11 +18,13 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: http://www.wilytech.com
+    status: 301
+    note: declared website redirects to https://www.broadcom.com/404-ca-technologies — a different registrable
+      domain (wilytech.com -> broadcom.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'http://www.wilytech.com', status: 301, note: 'declared website redirects to https://www.broadcom.com/404-ca-technologies — a different registrable domain (wilytech.com -> broadcom.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wily-technology.png
 name: Wily Technology
 description: Wily Technology is a company surfaced as a portfolio company of accel and added to the API
@@ -36,7 +38,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 x-status: defunct
 x-status-note: 'Verified 2026-07-21: www.wilytech.com 302-redirects to https://www.broadcom.com/404-ca-technologies
   and has no valid TLS cert; no api./developer./docs. subdomains resolve. Wily Technology (APM/Introscope,
@@ -44,6 +46,7 @@ x-status-note: 'Verified 2026-07-21: www.wilytech.com 302-redirects to https://w
   API surface, developer portal, or documentation exists.'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -53,7 +56,6 @@ maintainers:
 common:
 - type: Website
   url: http://www.wilytech.com
-
 x-enrichment:
   date: '2026-07-21'
   status: nochange
